@@ -1,0 +1,30 @@
+#skip a {
+    position:absolute;
+    top:-10000px;
+    width:1px;
+    height:1px;
+}
+#skip a:focus {
+    top: 0px;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+main {
+    background-color: black;
+}
+img {
+    width: 100%;
+}
+.header {
+    text-align: center;
+    margin: auto;
+}
+.footer {
+    text-align: center;
+    margin: auto;
+}
+a:focus, a:hover {
+    background-color: orange;
+}

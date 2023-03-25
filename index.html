@@ -1,17 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Assignment 3</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Xavier Yick">
+        <meta name="description" content="Main Page">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Xavier Yick">
-    <meta name="description" content="Main Page">
-    <title>Assignment 3</title>
-    <link rel="icon" href="images/picture.svg">
+        <link rel="icon" href="images/picture.svg">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="css/mainSmall.css" media="screen and (max-width: 590px)">
+        <link rel="stylesheet" href="css/mainMedium.css" media="screen and (min-width: 590px) and (max-width: 790px)">
+        <link rel="stylesheet" href="css/mainLarge.css" media="screen and (min-width: 790px)"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <div id="skip">
+            <a href="#mainContent">Skip to main content</a>
+        </div>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/mainSmall.css" media="screen and (max-width: 590px)">
-    <link rel="stylesheet" href="css/mainMedium.css" media="screen and (min-width: 590px) and (max-width: 790px)">
-    <link rel="stylesheet" href="css/mainLarge.css" media="screen and (min-width: 790px)">
-</head>
+        <header>
+            <div class="container-md">
+                <div class="row header">
+                    <div class="col-2 text-bg-warning p-4"></div>
+                    <div class="col-8 text-bg-primary p-4">
+                        mainPage
+                    </div>
+                    <div class="col-2 text-bg-success p-4">
+                        <a href="pages/resume.html">resume</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container-xxl">
+                <div class="row firstRow">
+                    <div class="col-md-2 text-bg-primary p-3"></div>
+                    <div class="col-md-4 text-bg-warning p-3">
+                        TESTESTEST
+                    </div>
+                    <div class="col-md-4 text-bg-success p-3">
+                        <figure>
+                            <img src="images/20230320_215916939_iOS.png" alt="2015 Honda Civic front lip test fit (front view)" title="Front lip test fit (front)">
+                            <figcaption>
+                                <p><cite>Front Lip Test Fit (Front)</cite> by me!
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-2 text-bg-primary p-3"></div>
+                </div>
+                <div class="row secondRow">
+                    <div class="col-md-2 text-bg-primary p-3"></div>
+                    <div class="col-md-4 text-bg-warning p-3">
+                        TESTESTEST
+                    </div>
+                    <div class="col-md-4 text-bg-success p-3">
+                        <figure>
+                            <img src="images/20230320_215939382_iOS.png" alt="2015 Honda Civic front lip test fit (angle view)" title="Front lip test fit (angle)">
+                            <figcaption>
+                                <p><cite>Front Lip Test Fit (Angle)</cite> by me!
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-2 text-bg-primary p-3"></div>
+                </div>
+                <div class="row thirdRow">
+                    <div class="col-md-2 text-bg-primary p-3"></div>
+                    <div class="col-md-8 text-bg-success p-3">
+                        <video controls muted preload="auto" width="100%">
+                            <source src="videos/20230325 085503000 Ios.mp4" type="video/mp4">
+                            <source src="videos/20230325 085503000 Ios.webm" type="video/webm">
+                            <source src="videos/20230325 085503000 Ios.mkv" type="video/mkv">
+                            <source src="videos/20230325_085503000_iOS.mov" type="video/mov">
+                        </video>
+                    </div>
+                    <div class="col-md-2 text-bg-primary p-3"></div>
+                </div>
+            </div>
+
+            <div class="row footer">
+                <div class="col-12 text-bg-warning p-3">
+                    <p class="copyright">&copy; Xavier Yick 2023</p>
+                </div>
+            </div>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
