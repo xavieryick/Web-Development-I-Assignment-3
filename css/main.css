@@ -1,3 +1,6 @@
+html {
+    font-size: calc(16px + 0.25vw);
+}
 #skip a {
     position:absolute;
     top:-10000px;
@@ -27,4 +30,11 @@ img {
 }
 a:focus, a:hover {
     background-color: orange;
+}
+figcaption {
+    text-align: center;
+    margin-top: 7%;
+}
+.title {
+    font-size: calc(24px + 0.25vw);
 }
