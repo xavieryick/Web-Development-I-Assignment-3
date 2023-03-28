@@ -1,3 +1,28 @@
+:root {
+    --blinker:orange;
+    --paint:white;
+    --chrome:silver;
+    --lip:black;
+    --spc:darkgrey;;
+}
+
+.bg-primary {
+    background-color: var(--paint) !important;
+}
+
+.bg-danger {
+    background-color: var(--spc) !important;
+}
+
+.bg-success {
+    background-color: var(--chrome) !important;
+}
+
+.bg-warning {
+    background-color: var(--lip) !important;
+    color: var(--paint);
+}
+
 html {
     font-size: calc(16px + 0.25vw);
 }
@@ -11,25 +36,23 @@ html {
     top: 0px;
     width: auto;
     height: auto;
-    background-color: white;
+    background-color: var(--paint);
 }
 
 main {
-    background-color: black;
+    background-color: var(--lip);
 }
 img {
     width: 100%;
 }
-.header {
+.titleRow {
     text-align: center;
-    margin: auto;
 }
-.footer {
+.copyrightRow {
     text-align: center;
-    margin: auto;
 }
 a:focus, a:hover {
-    background-color: orange;
+    background-color: var(--blinker);
 }
 figcaption {
     text-align: center;
