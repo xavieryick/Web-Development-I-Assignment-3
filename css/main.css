@@ -24,7 +24,7 @@
 }
 
 html {
-    font-size: calc(16px + 0.25vw);
+    font-size: calc(14px + 0.25vw);
 }
 #skip a {
     position:absolute;
@@ -56,8 +56,15 @@ a:focus, a:hover {
 }
 figcaption {
     text-align: center;
-    margin-top: 7%;
+    margin-top: auto;
 }
 .title {
     font-size: calc(24px + 0.25vw);
+}
+.carousel img{
+    width:100%;
+    object-fit: cover;
+}
+ol li {
+    font-size: calc(14px + 0.25vw);
 }

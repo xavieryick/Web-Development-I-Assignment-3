@@ -1,0 +1,63 @@
+:root {
+    --blinker:orange;
+    --paint:white;
+    --chrome:silver;
+    --lip:black;
+    --spc:darkgrey;;
+}
+
+.bg-primary {
+    background-color: var(--paint) !important;
+}
+
+.bg-danger {
+    background-color: var(--spc) !important;
+}
+
+.bg-success {
+    background-color: var(--chrome) !important;
+}
+
+.bg-warning {
+    background-color: var(--lip) !important;
+    color: var(--paint);
+}
+
+html {
+    font-size: calc(16px + 0.25vw);
+}
+#skip a {
+    position:absolute;
+    top:-10000px;
+    width:1px;
+    height:1px;
+}
+#skip a:focus {
+    top: 0px;
+    width: auto;
+    height: auto;
+    background-color: var(--paint);
+}
+
+main {
+    background-color: var(--lip);
+}
+img {
+    width: 100%;
+}
+.titleRow {
+    text-align: center;
+}
+.copyrightRow {
+    text-align: center;
+}
+a:focus, a:hover {
+    background-color: var(--blinker);
+}
+figcaption {
+    text-align: center;
+    margin-top: auto;
+}
+.title {
+    font-size: calc(24px + 0.25vw);
+}
