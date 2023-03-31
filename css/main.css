@@ -3,7 +3,7 @@
     --paint:white;
     --chrome:silver;
     --lip:black;
-    --spc:darkgrey;;
+    --spc:darkgrey;
 }
 
 .bg-primary {
@@ -11,11 +11,11 @@
 }
 
 .bg-danger {
-    background-color: var(--chrome) !important;
+    background-color: var(--spc) !important;
 }
 
 .bg-success {
-    background-color: var(--spc) !important;
+    background-color: var(--chrome) !important;
 }
 
 .bg-warning {
@@ -50,6 +50,9 @@ img {
 }
 .copyrightRow {
     text-align: center;
+}
+a {
+    font-weight: bold;
 }
 a:focus, a:hover {
     background-color: var(--blinker);
