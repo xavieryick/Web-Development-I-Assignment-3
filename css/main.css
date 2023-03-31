@@ -1,9 +1,9 @@
 :root {
-    --blinker:orange;
-    --paint:white;
-    --chrome:silver;
-    --lip:black;
-    --spc:darkgrey;
+    --blinker:rgb(255, 165, 0);
+    --paint:rgb(240, 240, 240);
+    --chrome:rgb(227, 227, 227);
+    --lip:rgb(0, 0, 0);
+    --beaks:rgb(215,215,215);
 }
 
 .bg-primary {
@@ -11,7 +11,7 @@
 }
 
 .bg-danger {
-    background-color: var(--spc) !important;
+    background-color: var(--beaks) !important;
 }
 
 .bg-success {
@@ -53,6 +53,8 @@ img {
 }
 a {
     font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
 }
 a:focus, a:hover {
     background-color: var(--blinker);
@@ -67,7 +69,4 @@ figcaption {
 .carousel img{
     width:100%;
     object-fit: cover;
-}
-ol li {
-    font-size: calc(14px + 0.25vw);
 }
