@@ -24,7 +24,7 @@
 }
 
 html {
-    font-size: calc(14px + 0.25vw);
+    font-size: calc(16px + 0.25vw);
 }
 #skip a {
     position:absolute;
@@ -65,6 +65,9 @@ figcaption {
 }
 .title {
     font-size: calc(24px + 0.25vw);
+}
+a {
+    font-size: calc(18px +0.25vw);
 }
 .carousel img{
     width:100%;
